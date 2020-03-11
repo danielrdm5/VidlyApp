@@ -101,7 +101,6 @@ C:\DanielCode\Vidly\Vidly\bin\Microsoft.Owin.Security.Twitter.xml
 C:\DanielCode\Vidly\Vidly\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\DanielCode\Vidly\Vidly\bin\Microsoft.Owin.Security.OAuth.xml
 C:\DanielCode\Vidly\Vidly\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
 C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.pdb
@@ -121,3 +120,5 @@ C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddGenre2.resources
 C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddGenre3.resources
 C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenres.resources
 C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMovieReleased.resources
+C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
+C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.Migrations.avance.resources

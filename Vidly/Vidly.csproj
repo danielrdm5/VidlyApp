@@ -235,6 +235,10 @@
     <Compile Include="Migrations\202003110016118_AddMovieReleased.Designer.cs">
       <DependentUpon>202003110016118_AddMovieReleased.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003112301085_avance.cs" />
+    <Compile Include="Migrations\202003112301085_avance.Designer.cs">
+      <DependentUpon>202003112301085_avance.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -242,6 +246,7 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
+    <Compile Include="Models\Min18YearsMember.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -377,6 +382,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202003110016118_AddMovieReleased.resx">
       <DependentUpon>202003110016118_AddMovieReleased.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003112301085_avance.resx">
+      <DependentUpon>202003112301085_avance.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
