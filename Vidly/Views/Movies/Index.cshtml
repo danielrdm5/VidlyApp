@@ -4,22 +4,26 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<small>Movies</small>
+<h2>Movies</h2>
 
-<table class="table table-bordered table-dark ">
-    <thead>
-        <tr>
-            <th>Movie title</th>
-            <th>Genre</th>
-        </tr>
-    </thead>
-    <tbody>
-    @foreach (var movie in Model)
-    {
-        <tr>
-            <td>@Html.ActionLink(movie.Name, "Details", "Movies", new { id = movie.Id }, null)</td>
-            <td>@movie.Genre.Name</td>
-        </tr>
-    }
-    </tbody>
-</table>
+<div class="container-fluid">
+    <table class="table table-bordered table-dark ">
+        <thead>
+            <tr>
+                <th>Movie title</th>
+                <th>Genre</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movie in Model)
+            {
+                <tr>
+                    <td>@Html.ActionLink(movie.Name, "Edit", "Movies", new { id = movie.Id }, null)</td>
+                    <td>@movie.Genre.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    @Html.ActionLink("Add movie", "New", "Movies", new {@class = "btn btn-primary btn-block" })
+
+</div>
