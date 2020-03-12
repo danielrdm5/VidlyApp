@@ -93,6 +93,7 @@ namespace Vidly.Controllers.API
                 throw new HttpResponseException(HttpStatusCode.NotFound);
 
             _context.Movies.Remove(MovieDb);
+            _context.SaveChanges();
         }
 
     }

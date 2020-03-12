@@ -95,6 +95,7 @@ namespace Vidly.Controllers.API
                 throw new HttpResponseException(HttpStatusCode.NotFound);
 
             _context.Customers.Remove(customerDb);
+            _context.SaveChanges();
         }
     }
 }
