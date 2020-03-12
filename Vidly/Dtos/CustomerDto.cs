@@ -8,7 +8,7 @@ using Vidly.Models;
 
 namespace Vidly.Dtos
 {
-    public class CustomerDto : AutoMapperBase
+    public class CustomerDto
     {
         public int Id { get; set; }
 
@@ -23,7 +23,6 @@ namespace Vidly.Dtos
         public byte MembershipTypeId { get; set; }
 
 
-        [Min18YearsMember]
         public DateTime? BirthDay { get; set; }
     }
 }

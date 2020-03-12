@@ -60,3 +60,6 @@ C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\System.Web.Http.WebHost.xml
 C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
 C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\System.Net.Http.Formatting.xml
 C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\Antlr3.Runtime.pdb
+C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\AutoMapper.dll
+C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\AutoMapper.pdb
+C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\AutoMapper.xml
