@@ -122,3 +122,9 @@ C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateGenres.resources
 C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMovieReleased.resources
 C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
 C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.Migrations.avance.resources
+C:\DanielCode\Vidly\Vidly\bin\System.Net.Http.Formatting.dll
+C:\DanielCode\Vidly\Vidly\bin\System.Web.Http.dll
+C:\DanielCode\Vidly\Vidly\bin\System.Web.Http.WebHost.dll
+C:\DanielCode\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
+C:\DanielCode\Vidly\Vidly\bin\System.Web.Http.xml
+C:\DanielCode\Vidly\Vidly\bin\System.Web.Http.WebHost.xml

@@ -49,3 +49,14 @@ C:\DanielCode\Vidly\Vidly.Tests\obj\Debug\Vidly.Tests.csprojAssemblyReference.ca
 C:\DanielCode\Vidly\Vidly.Tests\obj\Debug\Vidly.Tests.csproj.CopyComplete
 C:\DanielCode\Vidly\Vidly.Tests\obj\Debug\Vidly.Tests.dll
 C:\DanielCode\Vidly\Vidly.Tests\obj\Debug\Vidly.Tests.pdb
+C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\System.Web.Http.dll
+C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\WebGrease.dll
+C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\System.Web.Http.xml
+C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\System.Web.Http.WebHost.xml
+C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\Antlr3.Runtime.pdb

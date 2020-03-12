@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using Vidly.App_Start;
 
 namespace Vidly.Models
 {
-    public class Customer
+    public class Customer : AutoMapperBase
     {
         public int Id { get; set; }
         
