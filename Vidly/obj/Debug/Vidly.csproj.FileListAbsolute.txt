@@ -135,3 +135,8 @@ C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
 C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDriverLicenseToAppUsr.resources
 C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneNumberToRegs.resources
 C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneNumberToRegs2.resources
+C:\DanielCode\Vidly\Vidly\bin\Glimpse.Ado.dll
+C:\DanielCode\Vidly\Vidly\bin\Glimpse.AspNet.dll
+C:\DanielCode\Vidly\Vidly\bin\Glimpse.Core.dll
+C:\DanielCode\Vidly\Vidly\bin\Glimpse.EF6.dll
+C:\DanielCode\Vidly\Vidly\bin\Glimpse.Mvc5.dll
