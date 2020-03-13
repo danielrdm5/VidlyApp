@@ -63,3 +63,5 @@ C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\Antlr3.Runtime.pdb
 C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\AutoMapper.dll
 C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\AutoMapper.pdb
 C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\AutoMapper.xml
+C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\Microsoft.Owin.Security.Facebook.dll
+C:\DanielCode\Vidly\Vidly.Tests\bin\Debug\Microsoft.Owin.Security.Facebook.xml

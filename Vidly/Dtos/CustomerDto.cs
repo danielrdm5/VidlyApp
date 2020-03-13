@@ -19,6 +19,7 @@ namespace Vidly.Dtos
 
         public bool IsSusbcribedToNewsLetter { get; set; }
 
+        public MembershipTypeDto MembershipType { get; set; }
 
         public byte MembershipTypeId { get; set; }
 

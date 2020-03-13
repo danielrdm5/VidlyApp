@@ -131,3 +131,7 @@ C:\DanielCode\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
 C:\DanielCode\Vidly\Vidly\bin\AutoMapper.dll
 C:\DanielCode\Vidly\Vidly\bin\AutoMapper.pdb
 C:\DanielCode\Vidly\Vidly\bin\AutoMapper.xml
+C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
+C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddDriverLicenseToAppUsr.resources
+C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneNumberToRegs.resources
+C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddPhoneNumberToRegs2.resources

@@ -9,6 +9,7 @@ using AutoMapper.QueryableExtensions;
 using Vidly.App_Start;
 using Vidly.Dtos;
 using Vidly.Models;
+using System.Data.Entity;
 
 namespace Vidly.Controllers.API
 {
@@ -22,10 +23,11 @@ namespace Vidly.Controllers.API
             _context = new ApplicationDbContext();
             var config = new MapperConfiguration(cfg =>
             {
-                cfg.CreateMap<Customer, CustomerDto>()
-                    .ForMember(m => m.Id, opt => opt.Ignore());
+                cfg.CreateMap<Customer, CustomerDto>();
                 cfg.CreateMap<CustomerDto, Customer>()
                     .ForMember(m => m.Id, opt => opt.Ignore());
+                cfg.CreateMap<MembershipType, MembershipTypeDto>();
+                cfg.CreateMap<MembershipTypeDto, MembershipType>();
             });
             _iMapper = config.CreateMapper();
         }
@@ -33,7 +35,8 @@ namespace Vidly.Controllers.API
         //Get /api/customers
         public IEnumerable<CustomerDto> GetCustomers()
         {
-            return _context.Customers.ToList().Select(_iMapper.Map<Customer, CustomerDto>);
+            return _context.Customers.Include(
+                        c => c.MembershipType).ToList().Select(_iMapper.Map<Customer, CustomerDto>);
         }
 
 
