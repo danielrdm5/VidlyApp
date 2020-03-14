@@ -32,5 +32,7 @@ namespace Vidly.Models
         public DateTime Released { get; set; }
 
 
+        public byte Available { get; set; }
+
     }
 }
