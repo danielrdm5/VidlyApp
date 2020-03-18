@@ -1,0 +1,59 @@
+﻿@model Vidly.ViewModels.MovieFormViewModel
+@{
+    ViewBag.Title = "Movie";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@if (@Model.Id == 0)
+{
+    <h2>Adding Movie</h2>
+}
+else
+{
+    <h2>Editing Movie</h2>
+}
+
+@using (Html.BeginForm("Save", "Movies"))
+{
+    @Html.ValidationSummary()
+    <div class="form-group">
+        @Html.LabelFor(m => m.Name, "Movie name")
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Name, "Movie Name is required")
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.GenreId, "Genre")
+        @Html.DropDownListFor(m => m.GenreId,
+            new SelectList(Model.Genres, "Id", "Name"), "Select Genre", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.GenreId, "The Genre is required")
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Added, "Added")
+        @Html.TextBoxFor(m => m.Added, "{0:d MMM yyyy}", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Added, "Movie Added Date is required")
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Released, "Released")
+        @Html.TextBoxFor(m => m.Released, "{0:d MMM yyyy}", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Released, "Movie Released Date is required")
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Stock, "Stock")
+        @Html.TextBoxFor(m => m.Stock, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Stock)
+    </div>
+    
+    @Html.HiddenFor(m => m.Id)
+    @Html.AntiForgeryToken()
+    <button type="submit" class="btn btn-primary">Save</button>
+}
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+}

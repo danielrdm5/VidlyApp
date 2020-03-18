@@ -142,3 +142,4 @@ C:\DanielCode\Vidly\Vidly\bin\Glimpse.Mvc5.dll
 C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddRentals.resources
 C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.Migrations.ModRentals.resources
 C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.Migrations.MoviesAvailable.resources
+C:\DanielCode\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
