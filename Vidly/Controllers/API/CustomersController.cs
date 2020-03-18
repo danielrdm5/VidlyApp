@@ -33,10 +33,16 @@ namespace Vidly.Controllers.API
         }
 
         //Get /api/customers
-        public IEnumerable<CustomerDto> GetCustomers()
+        public IEnumerable<CustomerDto> GetCustomers(string query = null)
         {
-            return _context.Customers.Include(
-                        c => c.MembershipType).ToList().Select(_iMapper.Map<Customer, CustomerDto>);
+            var customersQuery = _context.Customers.Include(c => c.MembershipType);
+
+            if (!String.IsNullOrWhiteSpace(query))
+                customersQuery = customersQuery.Where(c => c.Name.Contains(query));
+
+            var customersDto = customersQuery.ToList().Select(_iMapper.Map<Customer, CustomerDto>);
+
+            return customersDto;
         }
 
 

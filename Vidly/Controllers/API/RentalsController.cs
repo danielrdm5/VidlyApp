@@ -12,7 +12,7 @@ namespace Vidly.Controllers.API
 {
     public class RentalsController : ApiController
     {
-        private ApplicationDbContext _context;
+        private readonly ApplicationDbContext _context;
         private IMapper _iMapper;
         public RentalsController()
         {
